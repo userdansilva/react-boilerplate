@@ -7,8 +7,8 @@
     "eslint:recommended",
     "airbnb",
     "plugin:react/recommended",
-    "plugin:react-hooks/recommended", // Recommended by React - Hooks roles
-    "plugin:react/jsx-runtime", // Recommended by React - Unnecessary React imports
+    "plugin:react-hooks/recommended",
+    "plugin:react/jsx-runtime",
     "plugin:@typescript-eslint/recommended"
   ],
   "overrides": [],
