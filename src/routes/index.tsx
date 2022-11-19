@@ -2,9 +2,9 @@ import { lazy, Suspense } from "react";
 import { Routes as Switch, Route, Outlet } from "react-router-dom";
 import { ErrorBoundary } from "react-error-boundary";
 
-const Welcome = lazy(() => import("../modules/welcome/pages"));
-const Login = lazy(() => import("../modules/auth/pages"));
-const NotFound = lazy(() => import("../shared/pages/404"));
+const Welcome = lazy(() => import("@welcome/pages"));
+const Login = lazy(() => import("@auth/pages"));
+const NotFound = lazy(() => import("@shared/pages/404"));
 
 function ErrorHandler() {
   return (
