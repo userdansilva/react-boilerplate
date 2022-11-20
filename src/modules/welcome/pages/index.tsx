@@ -2,7 +2,7 @@ import { Card } from "@welcome/components/Card";
 
 function Welcome() {
   return (
-    <div className="h-screen flex items-center justify-center w-full flex-col gap-10">
+    <div className="h-screen flex items-center justify-center w-full flex-col gap-10 bg-black text-white">
       <div className="max-w-5xl w-full">
         <h1 className="text-lg font-semibold">Features</h1>
       </div>
