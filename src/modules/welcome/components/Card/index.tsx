@@ -1,17 +1,18 @@
 import { ReactNode } from "react";
+import { Placeholder } from "./loading";
 
 export interface CardProps {
   title: string;
   children: ReactNode;
 }
 
-function Card({ title, children }: CardProps) {
+function Main({ title, children }: CardProps) {
   return (
     <div
       className={`
       bg-white bg-opacity-5 p-8 rounded-md flex flex-col 
       gap-3 border-b-2 border-amber-600 border-opacity-20
-      shadow-[0_0_60px_-15px_rgba(217,119,6,0.1)]
+      shadow-[0_0_60px_-15px_rgba(217,119,6,0.1)] h-48
     `}
       data-testid="card"
     >
@@ -31,5 +32,9 @@ function Card({ title, children }: CardProps) {
     </div>
   );
 }
+
+const Card = Object.assign(Main, {
+  Placeholder,
+});
 
 export { Card };
