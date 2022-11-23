@@ -24,16 +24,9 @@
       "@shared/*": [
         "shared/*"
       ],
-      "@auth/*": [
-        "modules/auth/*"
-      ],
       "@welcome/*": [
         "modules/welcome/*"
       ],
-      "@example/*": [
-        "modules/exemple/*"
-      ]
-      // Restart eslint and vite server after adding
     }
   },
   "include": [
