@@ -9,6 +9,6 @@ export default {
 export const Base: StoryObj<CardProps> = {
   args: {
     title: "Title Example",
-    children: "Content Example",
+    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non libero vehicula, fringilla purus ac, congue elit. Nullam sit amet tortor metus. In euismod risus.",
   },
 };

@@ -10,7 +10,7 @@ function Main() {
   const { data: features } = useSWR("/features", fetcher, { suspense: true });
 
   return (
-    <div className="grid grid-cols-3 max-w-5xl gap-3">
+    <div className="grid grid-cols-3 gap-3">
       {features?.map(({ id, title, description }) => (
         <Card key={id} title={title}>
           {description}

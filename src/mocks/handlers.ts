@@ -36,6 +36,11 @@ const handlers = [
         title: "Ready to Mock",
         description: "Seu backend não está pronto? No problem. Com MSW você consegue mockar todas as chamadas de API durante o desenvolvimento.",
       },
+      {
+        id: uuid(),
+        title: "Architecture",
+        description: "Arquitetura de modules para organizar funcionalidades, facilitanto a manutenabilidade e trabalho em equipe com Git.",
+      },
     ]),
   )),
 ];

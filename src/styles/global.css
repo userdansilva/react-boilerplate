@@ -6,7 +6,20 @@
   body {
     @apply font-sans;
     @apply text-sm;
-    /* @apply bg-black;
-    @apply text-white; */
+  }
+}
+
+@layer utilities {
+  .scroll-dark::-webkit-scrollbar {
+    width: .75rem;
+  }
+
+  .scroll-dark::-webkit-scrollbar-track {
+    background: #0e0e0e;
+  }
+
+  .scroll-dark::-webkit-scrollbar-thumb {
+    background: #181818;
+    border-radius: 10px;
   }
 }

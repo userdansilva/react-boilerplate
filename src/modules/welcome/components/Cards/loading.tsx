@@ -2,7 +2,7 @@ import { Card } from "../Card";
 
 function Placeholder() {
   const cards = [];
-  const cardsAmount = 6;
+  const cardsAmount = 7;
 
   for (let i = 0; i < cardsAmount; i += 1) {
     cards.push(<Card.Placeholder />);

@@ -10,6 +10,6 @@ export default defineConfig({
   test: {
     globals: true,
     environment: "happy-dom",
-    env: loadEnv("development", process.cwd()),
+    env: loadEnv("testing", process.cwd()),
   },
 });
